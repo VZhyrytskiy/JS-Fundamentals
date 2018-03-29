@@ -1,51 +1,57 @@
 console.log('Arrays');
 
 // Task 01
-// Создать массив. Получить последний элемент массива.
-// 1.    Без удаления этого элемента из массива.
-// 2.    С удалением этого элемента из массива
+// Create an array of any elements. Get the last element from this array.
+// Cases:
+// 1.    without deleting this element from an array;
+// 2.    with deleting this element from an array.
+// Display them in the console.
 
 // Task 02
-// Создать массив. Добавить элемент в конец массива.
-// 1    Получить тот же массив
-// 2    Получить новый массив
+// Create an array of any elements. Add new element to the end of this array.
+// Cases:
+// 1    mutate this array;
+// 2    create a new array.
+// Disply them in the conole.
 
 // Task 03
-// Создать массив. Обойти элементы массива и вывести их в консоль.
+// Create an array of any elements.
+// Iterate over this array and display each element in the console.
 
 // Task 04
-// Создать массив чисел в диапазоне от 0 до 100.
-// Вывети сумму тех элементов, которые удовлетворяют условию arr[i] > 50.
+// Create an array of numbers in the range from 0 to 100.
+// Calculate and display the sum of the elements, which are greater than 50.
 
 // Task 05
-// Создать массив строк. На основе этого массива создать строку –
-// объдинить все элементы массива используя определенный разделитель.
+// Create an array of strings. Create a string on the basis of this array.
+// This string should contain all elements from an array separated by certain delimeter.
 
 // Task 06
-// Создать массив чисел от 1 до 20 в случайном порядке.
-// Отcортировать массив по возрастанию. Получить массив отсортрованный
-// в обратном порядке и вывести его в консоль.
+// Create an array of numbers in the range from 1 to 20 in random order.
+// Sort this array in ascending order. Display it in the console.
+// Create a copy of previous array in reverse order. Disply it in the console.
 
 // Task 07
-// Создать массив [3, 0, -1, 12, -2, -4, 0, 7, 2]
-// На его основе создать новый массив [-1, -2, -4, 0, 0, 3, 12, 7, 2] –
-// сначала отрицательные числа, затем нули, затем положительные числа.
-// Порядок оставить без изменения.
+// Create the array: [3, 0, -1, 12, -2, -4, 0, 7, 2]
+// Use this array and create new one: [-1, -2, -4, 0, 0, 3, 12, 7, 2].
+// First part - negative values from the original array in the same order,
+// Next part - zeroes
+// Last part - positive values from the original array in the same order.
 
 // Task 08
-// 1. Создайте массив styles с элементами «Джаз», «Блюз».
-// 2. Добавьте в конец значение «Рок-н-Ролл»
-// 3. Замените предпоследнее значение с конца на «Классика».
-//    Код замены предпоследнего значения должен работать для массивов любой длины.
-// 4. Удалите первое значение массива и выведите его alert.
-// 5. Добавьте в начало значения «Рэп» и «Регги».
+// 1. Craete an array with two elements "Jazz", "Blues".
+// 2. Add new element "Rock-n-Roll" to the end of the array
+// 3. Replace the last but one element with new value "Classics".
+// 4. Remove the first element from the array and disply it in the console.
+// 5. Add two new elements "Rap" and "Reggae" at the begining of the array «Рэп» и «Регги».
 
 // Task 09
-// Подсчитать в указанной строке отдельно количество букв r, k, t.
-// dskjdhfkjshdfkjhsdkjureyteiruyiqywehjkh
+// Calculate the number of letters r, k, t in this string
+// "dskjdhfkjshdfkjhsdkjureyteiruyiqywehjkh"
 
 // Task 10
-// Создать массив. Получить случайный элемент из массива.
+// Create an array of any elements.
+// Get the random element from this array and display it in the console.
 
 // Task 11
 // Создайте функцию filterRange(arr, a, b), которая принимает массив чисел arr
