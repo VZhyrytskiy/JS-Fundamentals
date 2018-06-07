@@ -145,10 +145,10 @@ console.log('Arrays');
 //     Display them in the console.
 
 // Task 18
-// RU: Получить из строки «a big brown fox jumps over the lazy dog» массив слов,
+// RU: Получить из строки 'a big brown fox jumps over the lazy dog' массив слов,
 //     который содержит элементы, длина которых не больше 3 символа.
 //     Вывести массив в консоль.
-// EN: Get the array of words from the string «a big brown fox jumps over the lazy dog».
+// EN: Get the array of words from the string 'a big brown fox jumps over the lazy dog'.
 //     This array should contain only words, the length of which is 3 or less characters.
 //     Display it in the console.
 

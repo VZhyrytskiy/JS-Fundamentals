@@ -1,6 +1,8 @@
-# JS-Fundamentals
+# JS-Fundamentals, JS-AOF, Modern JavaScript: Promises, Iterators
 
 ## Requirements
+
+### Installed:
 1. Node.js
 2. Git
 
