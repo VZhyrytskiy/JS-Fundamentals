@@ -1,13 +1,16 @@
-# JS-Fundamentals, JS-AOF, Modern JavaScript: Promises, Iterators
+# JS-Fundamentals, JS-AOF, 
+# Modern JavaScript: Promises, Async Functions, Iterators
 
 ## Requirements
 
-### Installed:
+### Install the following software:
 1. Node.js
 2. Git
 
-## Steps
-Run this steps from the command line
-1. > npm install -g gulp
-2. > npm install
-3. > gulp
+### Install the following packages
+Run this commands from the command line
+> npm install -g gulp
+
+## Run the project
+Run the following command from the command line in the project root folder
+> npm start
