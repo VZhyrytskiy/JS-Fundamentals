@@ -1,5 +1,8 @@
-# JS-Fundamentals, JS-AOF, 
-# Modern JavaScript: Promises, Async Functions, Iterators
+# JS-Fundamentals, JS-AOF, Modern JavaScript: 
+1. Strings, Template Literals and Tagged Templates,
+2. Promises, 
+3. Async Functions, 
+4. Iterators
 
 ## Requirements
 
