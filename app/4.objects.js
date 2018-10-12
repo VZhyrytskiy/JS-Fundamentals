@@ -12,7 +12,7 @@ console.log('Objects');
 
 // Task 02
 // RU: Создать функцию-конструктор Tune(title, artist) для создания объектов
-//     с привытными свойствами title, artist и публичным методом concat().
+//     с приватными свойствами title, artist и публичным методом concat().
 //     Метод должен возвращать конкатенацию значений свойств title и artist.
 //     Создать несколько объектов. Вызвать их метод concat().
 // EN: Create function-constructor Tune(title, artist) for creating objects
