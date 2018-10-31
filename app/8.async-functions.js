@@ -36,7 +36,7 @@
 //     Cоздайте функцию f4, используя FDS (Function Declaration Statement).
 //     Функция должна вызвать функцию makeRequest, получить результат ее работы и вывести в консоль.
 // EN: Create a functiom makeRequest as a Function Declaration Statement.
-//     Th function should take one parameter - url and return a promise,
+//     The function should take one parameter - url and return a promise,
 //     which should be resolved after 2s and it should return the value of the parameter url.
 //     The first line of code in the function should display message 'makeRequest is called' in the console.
 //     Create a function f4 as a Function Declaration Statement.
