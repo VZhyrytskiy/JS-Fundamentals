@@ -40,7 +40,7 @@
 //     which should be resolved after 2s and it should return the value of the parameter url.
 //     The first line of code in the function should display message 'makeRequest is called' in the console.
 //     Create a function f4 as a Function Declaration Statement.
-//     The function f4 should call the function makeRequest, get its result and disply it in the console.
+//     The function f4 should call the function makeRequest, get its result and display it in the console.
 
 // Task 05
 // RU: Внесите изменения в функцию f4 из предыдущего задания так, чтобы в консоле появилось
