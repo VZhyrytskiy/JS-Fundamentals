@@ -24,6 +24,12 @@
 1. Node.js
 2. Git
 
+### Use branch
+1. gulp
+2. webpack
+
+> git checkout [your branch]
+
 ## Run the project
 > npm install
 
