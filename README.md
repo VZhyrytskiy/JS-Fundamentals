@@ -25,5 +25,6 @@
 2. Git
 
 ## Run the project
-Run the following command from the command line in the project root folder
+> npm install
+
 > npm start

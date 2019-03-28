@@ -1,4 +1,4 @@
-console.log('Primitive Data Types');
+console.log('Topic: Primitive Data Types');
 
 // Task 01
 // Объявите переменную days и проинициализируйте ее числом от 1 до 10.

@@ -1,4 +1,4 @@
-console.log('Functions');
+console.log('Topic: Functions');
 
 // Task 1. FDS
 // RU: Создайте функцию conc, которая должна конкатенировать значения

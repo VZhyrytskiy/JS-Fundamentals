@@ -1,3 +1,4 @@
+console.log('Topic: Strings');
 // Task 01. padStart
 // RU: Объявите три переменных: hour, minute, second.
 //     Присвойте им следующие значения: 4, 35, 5.
@@ -5,6 +6,12 @@
 // EN: Declare three variables: hour, minute, second.
 //     Assign them the following values: 4, 35, 5.
 //     Display the time in the format 04:35:05 in the console.
+
+// var hour, minute, second;
+// hour = 10;
+// minute = 40;
+// second = 25;
+// console.log(`${hour.toString().padStart(2, '0')}:${minute.toString().padStart(2, '0')}:${second.toString().padStart(2, '0')}`);
 
 // Task 02. repeat
 // RU: Создайте функцию, которая выведет в консоль пирамиду на 9 уровней как показано ниже

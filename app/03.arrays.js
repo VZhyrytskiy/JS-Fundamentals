@@ -1,4 +1,4 @@
-console.log('Arrays');
+console.log('Topic: Arrays');
 
 // Task 01
 // RU: Создать массив. Получить последний элемент массива.

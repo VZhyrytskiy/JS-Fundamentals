@@ -1,3 +1,4 @@
+console.log('Topic: Async Functions');
 // Task 01
 // RU: Создайте асинхронную функцию f1, используя FDS (Function Declaration Statement).
 //     Функция должна принимать два параметра a и b и возвращать сумму a+b.   

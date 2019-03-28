@@ -1,4 +1,4 @@
-console.log('Object Date');
+console.log('Topic: Date object');
 
 // Task 1
 // RU: Создать текущую дату и вывести ее в формате dd.mm.yyyy и dd Month yyyy
