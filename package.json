@@ -1,0 +1,19 @@
+{
+  "name": "js-fundamentals",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run project",
+    "project": "./node_modules/.bin/webpack-dev-server --config webpack.dev.js",
+    "build": "./node_modules/.bin/webpack --config webpack.dev.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "webpack": "4.29.6",
+    "webpack-cli": "3.3.0",
+    "webpack-dev-server": "3.2.1"
+  }
+}
