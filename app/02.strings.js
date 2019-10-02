@@ -7,12 +7,6 @@ console.log('Topic: Strings');
 //     Assign them the following values: 4, 35, 5.
 //     Display the time in the format 04:35:05 in the console.
 
-// var hour, minute, second;
-// hour = 10;
-// minute = 40;
-// second = 25;
-// console.log(`${hour.toString().padStart(2, '0')}:${minute.toString().padStart(2, '0')}:${second.toString().padStart(2, '0')}`);
-
 // Task 02. repeat
 // RU: Создайте функцию, которая выведет в консоль пирамиду на 9 уровней как показано ниже
 //     1
@@ -63,8 +57,8 @@ console.log('Topic: Strings');
 //     var str1 = '\u006d\u0061\u00f1';
 //     var str2 = '\u006d\u0061\u006e\u0303';
 
-// Task 07. endsWIth
-// RU: Создайте функцию, которая на вход получает массив имен фалов и расширение файла
+// Task 07. endsWith
+// RU: Создайте функцию, которая на вход получает массив имен файлов и расширение файла
 //     и возвращает новый массив, который содержит файлы указанного расширения.
 // EN: Create a function that gets an array of file names and a file extension as its parameters
 //     and returns a new array that contains the files of the specified extension.
