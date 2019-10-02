@@ -31,6 +31,6 @@
 > git checkout [your branch]
 
 ## Run the project
-> npm install 
+> npm install
 
 > npm start
