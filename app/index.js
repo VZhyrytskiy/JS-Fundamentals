@@ -7,4 +7,5 @@ import * as o06 from './06.functions';
 import * as o07 from './07.promises';
 import * as o08 from './08.async-functions';
 import * as o09 from './09.iterators';
-import * as o10 from './10.dom';
+import * as o10 from './10.sync-generators';
+import * as o11 from './11.dom';
