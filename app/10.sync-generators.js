@@ -1,13 +1,14 @@
 console.log('Topic: Sync-Generators');
 
 // Task 1. 
-// RU: Наишите функцию-генератор, которая генерирует числа в диапазоне от start до end.
-// EN: Create function-generator, which generates and returns numbers from start to end.
+// RU: Наишите функцию-генератор generateSequence, которая генерирует числа в диапазоне от start до end.
+// EN: Create function-generator generateSequence, which generates and returns numbers from start to end.
 
 
 // Task 2. Long Sequences
 // RU: Создать массив из чисел от 1 до 1000. 
-//     Реализовать функцию-генератор для формирования всех пар из этого массива. 
+//     Реализовать функцию-генератор для формирования всех пар из этого массива.
+//     Генератор возвращает одну пару за один раз.  
 //     Результат [1, 1], [1, 2], ..., [2, 1], [2, 2], ..., [1000, 1000]
 // EN: Create an array of numbers from 1 to 1000.
 //     Implement a generator function to create all pairs from this array.
@@ -60,6 +61,7 @@ console.log('Topic: Sync-Generators');
 // RU: Реализуйте бесконечную функцию-генератор calculation, которая будет выводить выражения
 //     a + b = ?, где a, b будет случайно генерировать и запрашивать у пользователя ответ.
 //     Если ответ верный, то писать в консоль true, иначе false. 
+//     Запустите код в консоли браузера
 // EN: Implement an infinite calculation generator-function that will output expressions
 //     a + b = ?, where a, b will be randomly generated and request a response from the user.
 //     If the answer is correct, then write true to the console, otherwise false.
@@ -77,11 +79,18 @@ console.log('Topic: Sync-Generators');
 //     к определенной группе телеграмм.
 //     Булевый флаг указывает, является ли пользователь администратором группы.
 //     Создайте генератор, который на вход получает этот объект и 
-//     возвращает только имена администраторов.
+//     возвращает только имена администраторов по одному за вызов.
 // EN: The collection stores all the usernames that joined
 //     to a specific telegram group.
 //     A boolean flag indicates whether the user is a group administrator.
 //     Create a generator that receives this object as input
 //     and returns only admin names.
 
-
+// const users = {
+//   anna: false,
+//   boris: true, // admin
+//   christina: false,
+//   dave: false,
+//   elena: false,
+//   felix: true,  // admin
+// };
