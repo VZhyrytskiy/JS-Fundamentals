@@ -7,7 +7,7 @@ console.log('Topic: Objects');
 //     Создать несколько объектов. Вызвать их метод concat().
 // EN: Create function-constructor Tune(title, artist) for creating objects
 //     with public properties title, artist and method concat().
-//     Mathod should return the concatenation of values of propeties title and artist.
+//     Method should return the concatenation of values of propeties title and artist.
 //     Create a few objects. Call their method concat().
 
 // Task 02
@@ -17,7 +17,7 @@ console.log('Topic: Objects');
 //     Создать несколько объектов. Вызвать их метод concat().
 // EN: Create function-constructor Tune(title, artist) for creating objects
 //     with private properties title, artist and method concat().
-//     Mathod should return the concatenation of values of propeties title and artist.
+//     Method should return the concatenation of values of propeties title and artist.
 //     Create a few objects. Call their method concat().
 
 // Task 03
