@@ -196,10 +196,10 @@ const users = {
 
 // const fib = {
 //     [Symbol.iterator]: () => {
-//         let prev = [... Array(2).keys()];
+//       const done = false
+//       let prev = [... Array(2).keys()];
 //         return {
 //             next: () => {
-//                 const done = false
 //                 const value = prev[0] + prev[1]
 
 //                 prev = [ prev[1], value, ]
@@ -213,22 +213,12 @@ const users = {
 
 // const Fib = {
 //     [Symbol.iterator]: () => {
-//         let fibIndex = 0;
 //         const fibIterator = fib[Symbol.iterator]()
-//         let done = false
 //         return {
-//             next: () => {
-//                 let value = fibIterator.next()
-//                 // done = done || (10 <= fibIndex)
-
-//                 fibIndex ++
-
-//                 const result = value // {value, done,}
-//                 return result
-//             },
-//             [`return`]: () => {
-//                 done = true
-//                 return { done }
+//             next: fibIterator.next,
+//             return: () => {
+//                 const done = true
+//                 return {} // done }
 //             },
 //         }
 //     }
