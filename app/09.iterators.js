@@ -40,11 +40,11 @@ console.log('Topic: Iterators');
 //     return target
 // }
 
-const colors = {
-  green: '#0e0',
-  orange: '#f50',
-  pink: '#e07'
-};
+// const colors = {
+//   green: '#0e0',
+//   orange: '#f50',
+//   pink: '#e07'
+// };
 
 // colors[Symbol.iterator] = () => {
 //     const colorsEntries = Object.entries(colors)
@@ -83,14 +83,14 @@ const colors = {
 //     The boolean flag indicates whether a user is an administrator of the group.
 //     Сreatereate an iterator that returns only the administrators' names.
 
-const users = {
-  anna: false,
-  boris: true, // admin
-  christina: false,
-  dave: false,
-  elena: false,
-  felix: true,  // admin
-};
+// const users = {
+//   anna: false,
+//   boris: true, // admin
+//   christina: false,
+//   dave: false,
+//   elena: false,
+//   felix: true,  // admin
+// };
 
 // users[Symbol.iterator] = () => {
 //     const entries = Object.entries(users)
