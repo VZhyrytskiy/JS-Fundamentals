@@ -250,7 +250,9 @@ console.log('Topic: Sync-Generators');
 //             const userInput = parseInt( prompt( `${a} + ${b} = ?`, `` ))
 
 //             result = ( sum === userInput )
+//             // const argFromNext =
 //             yield result
+//             // console.log( `argFromNext: '${argFromNext}'` )
 //         }
 //         catch(e){
 //             console.log(`Catched: ${e}`)
@@ -260,6 +262,10 @@ console.log('Topic: Sync-Generators');
 // }
 
 // const it = calculation()
+// // console.log(it.next().value)
+// // console.log(it.next().value)
+// // console.log(it.next(112).value)
+
 // let i = 0
 // for( const cmpResult of it ){
 //     i ++
