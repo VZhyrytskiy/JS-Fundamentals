@@ -73,18 +73,26 @@ console.log('Topic: Sync-Generators');
 // RU: Реализуйте функцию генерации чисел Фибоначчи до бесконечности
 // EN: Implement the infinite function-generator of generating Fibonacci numbers
 
-// let [prev, sum] = [0, 1]
+// const fibGenClosure = () => {
+//     let [prev, sum] = [0, 1]
 
-// function* fibGen(){
-//     const next = prev + sum
-//     prev = sum
-//     sum = next
+//     function* fibGen(){
+//         while(true){
+//             const following = prev + sum
+//             prev = sum
+//             sum = following
 
-//     yield sum
+//             yield sum
+//         }
+//     }
+
+//     return fibGen
 // }
 
+// const fibGen00 = fibGenClosure()();
+
 // [...Array(10)].forEach(() => {console.log(
-//     fibGen().next().value
+//     fibGen00.next().value
 // )})
 
 // Task 4. yield* 
