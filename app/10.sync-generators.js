@@ -240,18 +240,20 @@ console.log('Topic: Sync-Generators');
 // }
 
 // function* calculation(){
+//     const numGen = numGenerator()
 //     while(true){
 //         let result = undefined
 //         try{
-//             const {a, b, } = numGenerator().next().value
+//             const {a, b, } = numGen.next().value
 //             const sum = a + b
 
 //             const userInput = parseInt( prompt( `${a} + ${b} = ?`, `` ))
 
-//             const result = ( sum === userInput )
-
-//             yield result
-
+//             result = ( sum === userInput )
+//             // const argFromNext = 4 * ( 
+//                 yield(result)
+//             //     )
+//             // console.log( `argFromNext: '${argFromNext}'` )
 //         }
 //         catch(e){
 //             console.log(`Catched: ${e}`)
@@ -261,13 +263,19 @@ console.log('Topic: Sync-Generators');
 // }
 
 // const it = calculation()
+// console.log(it.next().value)
+// console.log(it.next().value)
+// console.log(it.next(112).value)
+
+// let i = 0
 // for( const cmpResult of it ){
+//     i ++
+
 //     console.log(cmpResult)
 //     it.throw( new Error( `It is Error` ) )
-//     // break
+
+//     if( 5 < i ){it.return()}
 // }
-
-
 
 // Task 8. 
 // RU: В коллекции хранятся все имена пользователей, которые присоединились 
