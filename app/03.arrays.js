@@ -129,7 +129,7 @@ console.log('Topic: Arrays');
 // RU: Создать массив любых элементов.
 //     Найти индекс указаного элемента в массиве и вывести его в консоль.
 // EN: Create an array of any elements.
-//     Find the index of a particular element in the array and disply it in the console.
+//     Find the index of a particular element in the array and display it in the console.
 
 // Task 16
 // RU: Создать массив с дублями элементов. На его основе создать новый массив
