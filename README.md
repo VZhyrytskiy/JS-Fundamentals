@@ -29,3 +29,6 @@
 > npm install
 
 > npm start
+
+## Contributors: 
+1. [SergBlack](https://github.com/SergBlack) - update webpack dependencies from v4 to v5
