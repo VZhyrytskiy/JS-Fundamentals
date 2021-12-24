@@ -60,13 +60,13 @@ console.log('Topic: Arrays');
 //     Create a copy of the previous array in reverse order. Disply it in the console.
 
 // Task 08
-// RU: Создать массив [3, 0, -1, 12, -2, -4, 0, 7, 2]
-//     На его основе создать новый массив [-1, -2, -4, 0, 0, 3, 12, 7, 2].
+// RU: Создать массив [3, 0, -1, 12, -2, -4, 100_001 0, 7, 2]
+//     На его основе создать новый массив [-1, -2, -4, 0, 0, 3, 12, 100_001, 7, 2].
 //     первая часть - отрицательные числа в том же порядке
 //     вторая часть - нули
 //     третья часть - положительные числа в том же порядке.
-// EN: Create the array: [3, 0, -1, 12, -2, -4, 0, 7, 2]
-//     Use this array and create new one: [-1, -2, -4, 0, 0, 3, 12, 7, 2].
+// EN: Create the array: [3, 0, -1, 12, -2, -4, 100_001 0, 7, 2]
+//     Use this array and create new one: [-1, -2, -4, 0, 0, 3, 12, 100_001, 7, 2].
 //     First part - negative values from the original array in the same order,
 //     Next part - zeroes
 //     Last part - positive values from the original array in the same order.
@@ -184,3 +184,4 @@ console.log('Topic: Arrays');
 //     and a value and returns the index of this value in the array or -1.
 //     Function should use binary search.
 //     Display the result in the console.
+
