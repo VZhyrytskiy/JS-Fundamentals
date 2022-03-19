@@ -1,4 +1,4 @@
-console.log('Topic: Objects');
+// console.log('Topic: Objects');
 
 // Task 01
 // RU: Создать функцию-конструктор Tune(title, artist) для создания объектов
@@ -10,6 +10,19 @@ console.log('Topic: Objects');
 //     Mathod should return the concatenation of values of propeties title and artist.
 //     Create a few objects. Call their method concat().
 
+// function Tune(title, artist) {
+
+//     this.title = title;
+//     this.artist = artist;
+
+//     this.concat = () => {
+//       console.log(`${this.title} ${this.artist}`);
+//       }
+// }
+
+// const o1 =new Tune("tit1', "art1");
+// console.log(o1);
+
 // Task 02
 // RU: Создать функцию-конструктор Tune(title, artist) для создания объектов
 //     с приватными свойствами title, artist и публичным методом concat().
@@ -19,6 +32,40 @@ console.log('Topic: Objects');
 //     with private properties title, artist and method concat().
 //     Mathod should return the concatenation of values of propeties title and artist.
 //     Create a few objects. Call their method concat().
+
+// function Tune(title, artist) {
+
+//     let title = title;
+//     let artist = artist;
+
+//     this.concat = () => {
+//       console.log(`${this.title} ${this.artist}`);
+//       }
+// }
+
+
+// function Tune(_title, _artist) {
+//   const title = _title;
+//   const artist = _artist;
+  
+//   Tune.prototype.concat = function() {
+//     console.log(title + ' ' + artist);
+//   }
+// }
+
+// const o1 = new Tune("tit1", "art1");
+// console.log(o1);
+// console.log(o1.concat);
+
+
+// String.prototype.exclaim = String.prototype.exclaim ? String.prototype.exclaim : function() {​​
+//   return `${​​this}​​!`;
+// }
+// if (!String.prototype.exclaim) {
+//   String.prototype.exclaim = function() {​​
+//     return '${​​this}​​!';
+//   }
+// }
 
 // Task 03
 // RU: Расширить прототип объекта String методом exclaim() если его нет в прототипе.
@@ -44,6 +91,55 @@ console.log('Topic: Objects');
 //     1. Object.create()
 //     2. Class
 
+
+// const Book = (function() {
+
+//   function Book(title, author) {
+//     this.title = title;
+//     this.author = author;
+//   }
+
+//   Book.prototype.getTitle = function() {
+//     return this.title;
+//   }
+
+//   Book.prototype.getAuthor = function() {
+//     return this.author;
+//   }
+
+//   return Book;
+    
+// })();
+
+// const TechBook = (function() {
+
+//   function TechBook(title, author, category) {
+
+//     // this.title = title;
+//     // this.author = author;
+//     Book.call(this, title, author);
+//     this.category = category;
+//   }
+
+//   TechBook.prototype = Object.create(Book.prototype);
+//   TechBook.prototype.constructor = TechBook;
+  
+
+//   TechBook.prototype.getCategory = function() {
+//     return this.category;
+//   }
+
+//   TechBook.prototype.getAuthor = function() {
+//     return this.author;
+//   }
+
+//   return TechBook;
+    
+// })();
+// const book = new Book('title1', 'artist1';)
+
+
+
 // Task 05
 // RU: Создайте класс Shape со статическим свойством count.
 //     Проинициализируйте это свойство 0.
@@ -56,6 +152,33 @@ console.log('Topic: Objects');
 //     Create derived class Rectangle. Add method to calculate area.
 //     Create a few objects. Display the number of created objects in the console.
 
+
+// class Shape {
+//   constructor() {
+//     Shape.count++;
+//   }
+// }
+
+// Shape.count = 0;
+
+// class Rectangle extends Shape {
+//   constructor(wedth, heidht) {
+//     super();
+//     this.width = wedth;
+//     this.heidht = heidht;
+    
+//   }
+
+//   calcArea() {
+//     return this.width * this.heidht;
+//   }
+  
+// }
+
+// const o1 = new Rectangle(10,10);
+// console.log(Shape.count);
+
+
 // Task 06
 // RU: Создать функцию-конструктор Person() для конструирования объектов.
 //     Добавить два метода: setFirstName() и setLastName().
@@ -63,6 +186,23 @@ console.log('Topic: Objects');
 // EN: Create function-constructor Person() for creating objects.
 //     Add two methods: setFirstName() и setLastName().
 //     These methods should be called in chain like this obj.setFirstName(...).setLastName(...)
+
+
+// function Person( {
+
+// })
+// Person.prototype.setFirstName = function(value) {
+//   this.setFirstName = value;
+//   return this;
+// }
+
+// Person.prototype.setLasttName = function(value) {
+//   this.setLastName = value;
+//   return this;
+// }
+
+// const ob = new Person();
+// ...
 
 // Task 07
 // RU: Cоздать объект data и сконфигурирвать его свойства:
@@ -78,9 +218,51 @@ console.log('Topic: Objects');
 //                  setter sets the value if the property _category, enumerable, configurable.
 //     Using for-in display property of an object in the console.
 
+
+// const data = {};
+// Object.defineProperties(data, {
+//   id: {
+//     value: 1,
+//     writable: true
+//   },
+//   type: {
+//     value: 'primary',
+//     enumerable: true
+//   },
+//   category: {
+//     get() {
+//       return this._category;
+
+//     },
+//     set(value) {
+//       this._category = value;
+
+//     },
+//     enumerable: true,
+//     configurable: true
+    
+      
+//     }
+
+  
+// });
+// data.category = 'javascript';
+// console.log(data);
+// for (const field in data) {
+//   console.log(field);
+// }
+
+
+
+
 // Task 08
 // RU: Создать литерал объекта с двумя свойствами. Запретить расширять объект.
 // EN: Create object literal with two properties. Deny extend the object.
+
+
+
+
+
 
 // Task 09 TodoList Application
 // RU: Создать классы 'задача' и 'список задач' со следющим функционалом:
@@ -99,3 +281,64 @@ console.log('Topic: Objects');
 //     4. Remove task from the list of tasks.
 //     5. Sort tasks alphabetically in asc or desc order
 //     6. Clear the list of tasks.
+
+class Task {
+  constructor(title) {
+    this.title = title;
+    // this.status = 'new';
+  }
+  toString() {
+    return `[${this.status}] ${this.title}`;
+  }
+
+  complete() {
+    this.status = 'completed';
+  }
+}
+Task.prototype.status = 'new';
+
+class TaskList {
+  constructor() {
+    this.tasks = new Set();
+  }
+
+  add(task) {
+    this.tasks.add(task);
+  }
+
+  print() {
+    this.tasks.forEach((task) => {
+       console.log(task.toString());
+    });
+  }
+
+  complete(task) {
+      for(const t of this.tasks) {
+        if (t.title ===task.title) {
+          t.complete();
+          break;
+        }
+      }
+  }
+
+  delete(task) {
+    this.tasks.delete(task);
+  }
+
+  sort() {
+    const arr = Array.from(this.tasks);
+    arr.sort((o1, o2) => {
+      return o1.title.localeCompare(o2.title);
+    });
+    return arr;
+  }
+}
+
+
+const task1 = new Task('create');
+task1.complete();
+console.log(task1);
+console.log(task1.status);
+console.log(task1.toString());
+
+

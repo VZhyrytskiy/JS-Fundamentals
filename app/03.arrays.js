@@ -5,6 +5,11 @@ console.log('Topic: Arrays');
 //     1.    Без удаления этого элемента из массива.
 //     2.    С удалением этого элемента из массива
 //    Выведите массивы в консоль
+
+// const array = [1,2,3,4];
+
+// console.log(array[array.length-1]);
+// console.log(array.pop());
 // EN: Create an array of any elements. Get the last element from this array.
 //     1.    without deleting this element from an array;
 //     2.    with deleting this element from an array.
@@ -15,6 +20,11 @@ console.log('Topic: Arrays');
 //     1. Модифицировать текущий массив
 //     2. Создать новый массив
 //     Выведите массивы в консоль
+
+
+// const arr = [1,2,3];
+// arr.push('4');
+// const newArr = [...arr];
 // EN: Create an array of any elements. Add new element to the end of this array.
 //     1. mutate current array;
 //     2. create a new array.
