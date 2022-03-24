@@ -1,7 +1,7 @@
 console.log('Topic: Sync-Generators');
 
 // Task 1. 
-// RU: Наишите функцию-генератор generateSequence, которая генерирует числа в диапазоне от start до end.
+// RU: Напишите функцию-генератор generateSequence, которая генерирует числа в диапазоне от start до end.
 // EN: Create function-generator generateSequence, which generates and returns numbers from start to end.
 
 
