@@ -1,14 +1,14 @@
-function reverseInPlace(str){
-  console.log( str.split(' ').reverse().join(' ')
-  .split('')
-  .reverse()
-  .join('')
-  );
+// function reverseInPlace(str){
+//   console.log( str.split(' ').reverse().join(' ')
+//   .split('')
+//   .reverse()
+//   .join('')
+//   );
 
-  return str.split(' ').reverse().join(' ').split('').reverse().join('');
-}
+//   return str.split(' ').reverse().join(' ').split('').reverse().join('');
+// }
 
-console.log(reverseInPlace('I am the good boy'));
+// console.log(reverseInPlace('I am the good boy'));
 
 
 // function swapNumb(a, b){
