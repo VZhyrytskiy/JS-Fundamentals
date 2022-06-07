@@ -30,28 +30,19 @@ console.log('Topic: Arrays');
 //     2. create a new array.
 //     Disply them in the conole.
 
-
-
-
 // Task 04
-// RU: Создать массив любых элементов.
-//     Обойти элементы массива и вывести их в консоль.
-// EN: Create an array of any elements.
-//     Iterate over this array and display each element in the console.
-
-// Task 05
 // RU: Создать массив чисел в диапазоне от 0 до 100.
 //     Подсчитать и вывети сумму тех элементов, которые больше 50.
 // EN: Create an array of numbers in the range from 0 to 100.
 //     Calculate and display the sum of the elements, which are greater than 50.
 
-// Task 06
+// Task 05
 // RU: Создать массив строк. На основе этого массива создать строку –
 //     объдинить все элементы массива, используя определенный разделитель.
 // EN: Create an array of strings. Create a string on the basis of this array.
 //     This string should contain all elements from an array separated by certain delimeter.
 
-// Task 07
+// Task 06
 // RU: Создать массив чисел от 1 до 20 в случайном порядке.
 //     Отcортировать массив по возрастанию. Вывести его в консоль.
 //     Получить массив, отсортрованный в обратном порядке, и вывести его в консоль.
@@ -59,7 +50,7 @@ console.log('Topic: Arrays');
 //     Sort this array in ascending order. Display it in the console.
 //     Create a copy of the previous array in reverse order. Disply it in the console.
 
-// Task 08
+// Task 07
 // RU: Создать массив [3, 0, -1, 12, -2, -4, 100_001 0, 7, 2]
 //     На его основе создать новый массив [-1, -2, -4, 0, 0, 3, 12, 100_001, 7, 2].
 //     первая часть - отрицательные числа в том же порядке
@@ -71,7 +62,7 @@ console.log('Topic: Arrays');
 //     Next part - zeroes
 //     Last part - positive values from the original array in the same order.
 
-// Task 09
+// Task 08
 // RU: 1. Создайте массив styles с элементами "Jazz", "Blues".
 //     2. Добавьте в конец значение "Rock-n-Roll".
 //     3. Замените предпоследнее значение с конца на "Classics".
@@ -85,11 +76,24 @@ console.log('Topic: Arrays');
 //     5. Add two new elements "Rap" and "Reggae" at the begining of the array.
 //     6. Display an array in the console.
 
-// Task 10
+// Task 09
 // RU: Подсчитать в строке "dskjdhfkjshdfkjhsdkjureyteiruyiqywehjkh"
 //     отдельно количество букв r, k, t и вывести в консоль.
 // EN: Calculate the number of letters r, k, t in this string
 //     "dskjdhfkjshdfkjhsdkjureyteiruyiqywehjkh" and display them in the console.
+
+// Task 10. Aleh Hupalo
+// RU: Создать строку содержащую буквы и цифры.
+//     Получить максимальное число, состоящее из цифр, существующих в созданной строке.
+//     Тестовые данные:
+//     - 'sd231gt04' -> 43210
+//     - '00HT00jtr' -> 0
+// EN: Create a string containing letters and digits.
+//     Get the maximum number consisting of digits existing in the created string.
+//     Test data:
+//     - 'sd231gt04' -> 43210
+//     - '00HT00jtr' -> 0
+
 
 // Task 11
 // RU: Создать массив любых элементов.
