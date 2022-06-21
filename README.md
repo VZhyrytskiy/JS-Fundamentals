@@ -33,3 +33,4 @@
 ## Contributors: 
 1. [SergBlack](https://github.com/SergBlack) - update webpack dependencies from v4 to v5
 2. [Aleh Gupalo](https://gist.github.com/gupalooleg) - add task to 03.arrays.js
+3. [Maksym Koval1](mailto:Maksym_Koval1@epam.com) - add task to 03.arrays.js and 04.objects.js

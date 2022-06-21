@@ -95,13 +95,18 @@ console.log('Topic: Arrays');
 //     - '00HT00jtr' -> 0
 
 
-// Task 11
+// Task 11. (Maksym Koval1 <Maksym_Koval1@epam.com>)
+// RU: Есть строка, представляющая rgb цвет, например 'rgb(255, 255, 78)'.
+//     Необходимо извлечь из строки номера цветов и вывести их в консоль через разделитель "-".
+
+
+// Task 12
 // RU: Создать массив любых элементов.
 //     Получить случайный элемент из массива и вывести его в консоль.
 // EN: Create an array of any elements.
 //     Get the random element from this array and display it in the console.
 
-// Task 12
+// Task 13
 // RU: Создать двумерный массив:
 //     1 2 3
 //     4 5 6
@@ -113,13 +118,13 @@ console.log('Topic: Arrays');
 //     7 8 9
 //     Display it in the console.
 
-// Task 13
+// Task 14
 // RU: Преобразовать массив из предыдущего задания в одномерный.
 //     Вывести его в консоль
 // EN: Transform an array from the previous task into one-dementional array.
 //     Display it in the console.
 
-// Task 14
+// Task 15
 // RU: Создать массив любых элементов.
 //     На его основе получить новый массив – подмножество элементов
 //     оригинального массива начиная с индекса a и заканчивая индексом b.
@@ -129,13 +134,13 @@ console.log('Topic: Arrays');
 //     contain elements from index a to index b.
 //     Display it in the console.
 
-// Task 15
+// Task 16
 // RU: Создать массив любых элементов.
 //     Найти индекс указаного элемента в массиве и вывести его в консоль.
 // EN: Create an array of any elements.
 //     Find the index of a particular element in the array and display it in the console.
 
-// Task 16
+// Task 17
 // RU: Создать массив с дублями элементов. На его основе создать новый массив
 //     уникальных элементов (удалить дубли).
 //     Вывести новый массив в консоль.
@@ -143,7 +148,7 @@ console.log('Topic: Arrays');
 //     Remove duplicated elements.
 //     Display it in the console.
 
-// Task 17
+// Task 18
 // RU: Создать массив с дублями. Найти первый элемент, который дублируется.
 //     Заменить этот элемент и все его копии на символ '*'.
 //     Вывести массив в консоль.
@@ -151,7 +156,7 @@ console.log('Topic: Arrays');
 //     Replace this element and all its copies with symbol '*'.
 //     Display it in the console.
 
-// Task 18
+// Task 19
 // RU: Создать массив целых чисел. На его основе создать массивы – представления
 //     этих же чисел в бинарном, восьмеричном и шестнадцатеричном виде.
 //     Вывести эти массивы в консоль.
@@ -161,7 +166,7 @@ console.log('Topic: Arrays');
 //     Third array contains the hexadecimal representation of the elements from the original array.
 //     Display them in the console.
 
-// Task 19
+// Task 20
 // RU: Получить из строки 'a big brown fox jumps over the lazy dog' массив слов,
 //     который содержит элементы, длина которых не больше 3 символа.
 //     Вывести массив в консоль.
@@ -169,7 +174,7 @@ console.log('Topic: Arrays');
 //     This array should contain only words, the length of which is 3 or less characters.
 //     Display it in the console.
 
-// Task 20
+// Task 21
 // RU: Создать массив, который содержит строки и числа.
 //     Проверить, содержит ли массив только строки.
 //     Вывети результат в консоль
@@ -177,7 +182,7 @@ console.log('Topic: Arrays');
 //     Check whether this array contains only strings.
 //     Display the result in the console.
 
-// Task 21
+// Task 22
 // RU: Создать отсортированный массив чисел.
 //     Реализовать функцию binarySearch(arr, value), которая принимает массив
 //     и значение и возвращает индекс значения в массиве или -1.

@@ -99,3 +99,24 @@ console.log('Topic: Objects');
 //     4. Remove task from the list of tasks.
 //     5. Sort tasks alphabetically in asc or desc order
 //     6. Clear the list of tasks.
+
+// Task 10 Transform Array into Map (Maksym Koval1 <Maksym_Koval1@epam.com>)
+// RU: Преобразовать массив в меп по образцу
+// EN: Transform array into map according to pattern
+// const entries = [
+//     { key:'FIRST_KEY', value: 'FIRST_KEY_VALUE'},
+//     { key:'FIRST_KEY', value: 'FIRST_KEY_NOT_SAME_VALUE'},
+//     { key:'SECOND_KEY', value:'value1'},
+//     { key:'SECOND_KEY', value:'value4'},
+//     { key:'THIRD_KEY', value: 'value6'},
+//     { key:'FOURTH_KEY', value:'value1'},
+// ];
+
+// ==> 
+
+// Map { 
+//     'FIRST_KEY': ['FIRST_KEY_VALUE', 'FIRST_KEY_NOT_SAME_VALUE'],
+//     'SECOND_KEY': ['value1', 'value4'],
+//     'THIRD_KEY': 'value6',
+//     'FOURTH_KEY': 'value1'
+// }
