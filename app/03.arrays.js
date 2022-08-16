@@ -18,7 +18,7 @@ console.log('Topic: Arrays');
 // EN: Create an array of any elements. Add new element to the end of this array.
 //     1. mutate current array;
 //     2. create a new array.
-//     Disply them in the conole.
+//     Display them in the console.
 
 // Task 03
 // RU: Создать массив любых элементов. Вставить новый элемент под индексом 3.
@@ -28,7 +28,7 @@ console.log('Topic: Arrays');
 // EN: Create an array of any elements. Insert a new element with index 3.
 //     1. mutate current array;
 //     2. create a new array.
-//     Disply them in the conole.
+//     Display them in the console.
 
 // Task 04
 // RU: Создать массив чисел в диапазоне от 0 до 100.
@@ -48,15 +48,15 @@ console.log('Topic: Arrays');
 //     Получить массив, отсортрованный в обратном порядке, и вывести его в консоль.
 // EN: Create an array of numbers in the range from 1 to 20 in random order.
 //     Sort this array in ascending order. Display it in the console.
-//     Create a copy of the previous array in reverse order. Disply it in the console.
+//     Create a copy of the previous array in reverse order. Display it in the console.
 
 // Task 07
-// RU: Создать массив [3, 0, -1, 12, -2, -4, 100_001 0, 7, 2]
+// RU: Создать массив [3, 0, -1, 12, -2, -4, 100_001, 0, 7, 2]
 //     На его основе создать новый массив [-1, -2, -4, 0, 0, 3, 12, 100_001, 7, 2].
 //     первая часть - отрицательные числа в том же порядке
 //     вторая часть - нули
 //     третья часть - положительные числа в том же порядке.
-// EN: Create the array: [3, 0, -1, 12, -2, -4, 100_001 0, 7, 2]
+// EN: Create the array: [3, 0, -1, 12, -2, -4, 100_001, 0, 7, 2]
 //     Use this array and create new one: [-1, -2, -4, 0, 0, 3, 12, 100_001, 7, 2].
 //     First part - negative values from the original array in the same order,
 //     Next part - zeroes
@@ -72,7 +72,7 @@ console.log('Topic: Arrays');
 // EN: 1. Create an array styles with two elements "Jazz", "Blues".
 //     2. Add new element "Rock-n-Roll" to the end of the array.
 //     3. Replace the last but one element with new value "Classics".
-//     4. Remove the first element from the array and disply it in the console.
+//     4. Remove the first element from the array and display it in the console.
 //     5. Add two new elements "Rap" and "Reggae" at the begining of the array.
 //     6. Display an array in the console.
 
@@ -98,6 +98,9 @@ console.log('Topic: Arrays');
 // Task 11. (Maksym Koval1 <Maksym_Koval1@epam.com>)
 // RU: Есть строка, представляющая rgb цвет, например 'rgb(255, 255, 78)'.
 //     Необходимо извлечь из строки номера цветов и вывести их в консоль через разделитель "-".
+// EN: There is a string representing the rgb color, for example 'rgb(255, 255, 78)'.
+//     It is necessary to extract the numbers of colors from the string and output 
+//     them to the console through the "-" separator.
 
 
 // Task 12
