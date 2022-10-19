@@ -7,7 +7,7 @@ console.log('Topic: Objects');
 //     Создать несколько объектов. Вызвать их метод concat().
 // EN: Create function-constructor Tune(title, artist) for creating objects
 //     with public properties title, artist and method concat().
-//     Method should return the concatenation of values of propeties title and artist.
+//     Method should return the concatenation of values of properties title and artist.
 //     Create a few objects. Call their method concat().
 
 // Task 02
@@ -17,14 +17,14 @@ console.log('Topic: Objects');
 //     Создать несколько объектов. Вызвать их метод concat().
 // EN: Create function-constructor Tune(title, artist) for creating objects
 //     with private properties title, artist and method concat().
-//     Method should return the concatenation of values of propeties title and artist.
+//     Method should return the concatenation of values of properties title and artist.
 //     Create a few objects. Call their method concat().
 
 // Task 03
 // RU: Расширить прототип объекта String методом exclaim() если его нет в прототипе.
 //     Метод должен добавлять знак восклицания к строке и выводить ее в консоль.
 // EN: Extend the prototype of object String with the method exclaim(), if it doesn't exist.
-//     Method should add exclaimation mark to the string and disply it in the console.
+//     Method should add exclaimation mark to the string and display it in the console.
 
 // Task 04
 // RU: Создать функцию-конструктор Book(title, author).
@@ -76,7 +76,7 @@ console.log('Topic: Objects');
 //     2. type: value = 'primary', enumerable
 //     3. category: getter returns the value of the property _category,
 //                  setter sets the value if the property _category, enumerable, configurable.
-//     Using for-in display property of an object in the console.
+//     Using for-in display properties of an object in the console.
 
 // Task 08
 // RU: Создать литерал объекта с двумя свойствами. Запретить расширять объект.

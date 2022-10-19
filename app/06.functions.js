@@ -27,7 +27,7 @@ console.log('Topic: Functions');
 // EN: Create a function comp, which should compare the values
 //     of two parameters a and b, and return 1, when they equal and return -1,
 //     when they are not equal.
-//     UseFunction Definition Expression (FDE).
+//     Use Function Definition Expression (FDE).
 //     Call a function before it declaration.
 //     Test data:
 //     a = 'abc', b = 'abc', result = 1
@@ -190,7 +190,7 @@ console.log('Topic: Functions');
 //     вначале своего параметра и возвращать результат. Объявите этот знак в функции copyright.
 //     Тестовые данные:
 //     console.log( copyright()('EPAM') ); result = © EPAM.
-// EN: Create a function copyright, which ahould return anther function with one parameter.
+// EN: Create a function copyright, which should return another function with one parameter.
 //     This returned function should prepend sign © ('\u00A9') to its parameter and
 //     return the result. Declare the sign © ('\u00A9') inside copyright function.
 //     Test Data:
@@ -210,7 +210,7 @@ console.log('Topic: Functions');
 //     employee.work()  результат в консоле "I am Ann. I am working..."
 // EN: Create an object literal employee with the following properties:
 //     name: 'Ann', 
-//     work – function, which display in the console the following string 
+//     work – function, which displays in the console the following string 
 //     "I am Ann. I am working..."
 //     Test Data:
 //     employee.work()  result in the console "I am Ann. I am working..."
